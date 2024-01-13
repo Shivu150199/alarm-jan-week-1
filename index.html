@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multiple Timer app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <section class="section-center">
+      <h3 class="title">Multiple Timers App</h3>
+      <div class="set-time-container">
+        <span>set time :</span>
+        <div class="fulltime">
+          <input type="number" min="0" value="00" name="hh" id="hh"/><span>:</span>
+          <input type="number" min="0" value="00" name="mm" id="mm" max="59"  /><span>:</span>
+          <input type="number" min="0" value="00" name="ss" id="ss" max="59"  />
+        </div>
+        <button class="settime btn">set time</button>
+      </div>
+
+      <div class="current-timer-title">current timers</div>
+      <div class="current-time-container">
+        <p class="alert">You have no timers currently!</p>
+      
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
